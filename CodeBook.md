@@ -1,5 +1,5 @@
 STUDY DESIGN
-
+-------------------------------------------------------------------------------------------------------------------------
 Data was collected from the sources below and processed in order to get the mean and standard deviation of measurements (Test and Training).
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -7,11 +7,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Data was refered to process measurements for Human Activity Recognition Using Smartphones Dataset.
  
-The execution to tidy the data was mainly based on dataframes and subsetting in some cases.
+The execution to obtain the tidy data was mainly based on dataframes and subsetting in some cases.
+
 -------------------------------------------------------------------------------------------------------------------------
 DIMENSIONS
 
 The tidy data has a 69 columns (variables) and 181 rows (including column names).
+
 --------------------------------------------------------------------------------------------------------------------------
 TYPES OF VARIABLES
 
@@ -93,6 +95,7 @@ The tidy data set compiles the following different variables:
 69	fBodyBodyGyroJerkMag.std..
 
 Note: Measurement variables were modified from originals in order to be valid column names for the defined process.
+
 ---------------------------------------------------------------------------------------------------------------------------
 VARIABLES CONTENTS
 
@@ -100,14 +103,10 @@ subject_id (numbers from 1 to 30, representing 30 individuals that took part of 
 activity_id (numbers from 1 to 6, representing the different types of activities performed)
 activity_labels (text strings to describe each type of activity, these are linked to the activity_id)
 1 WALKING
-
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
-
 4 SITTING
-
 5 STANDING
-
 6 LAYING
 
 
