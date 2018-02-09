@@ -1,10 +1,8 @@
-
 GETTING AND CLEANING DATA ASSIGNMENT WEEK 4
 
 
 
 
-The information provided in the repo contains the required files for the project assignment of Week 4 
 FILES INCLUDED:
 - CodeBook.md
 - README.md
@@ -21,8 +19,7 @@ DESCRIPTION OF THE DATA
 SCRIPT
 - The script considers the data has been already downloaded and stored in a folder named 'UCI HAR Dataset' and library(dplyr) has been executed.
 - The process starts in creating different dataframes from the data provided.
-- Based on the data provided it is analysed the content and dimensions of the different dataframe and merge when required.
-- To execute the assignmet it was followed the assignment steps:
+- Based on the data provided it is analysed the content and dimensions of the different dataframe and merge when required, following the assignment steps:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
