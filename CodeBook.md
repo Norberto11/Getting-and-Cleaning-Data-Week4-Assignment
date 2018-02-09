@@ -109,4 +109,4 @@ Activity Labels:
 6. LAYING
 
 
-Measurement variables (66 variables taht contains the mean and standard deviation of measurements)
+
