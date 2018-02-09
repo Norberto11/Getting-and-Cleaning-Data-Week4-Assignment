@@ -9,14 +9,12 @@ Data was refered to process measurements for Human Activity Recognition Using Sm
  
 The execution to obtain the tidy data was mainly based on dataframes and subsetting in some cases.
 
--------------------------------------------------------------------------------------------------------------------------
 DIMENSIONS
-
+-------------------------------------------------------------------------------------------------------------------------
 The tidy data has a 69 columns (variables) and 181 rows (including column names).
 
---------------------------------------------------------------------------------------------------------------------------
 TYPES OF VARIABLES
-
+-------------------------------------------------------------------------------------------------------------------------
 The tidy data set compiles the following different variables:
 
 1) Variables to identified subjects and activities performed (3)
@@ -96,9 +94,8 @@ The tidy data set compiles the following different variables:
 
 Note: Measurement variables were modified from originals in order to be valid column names for the defined process.
 
----------------------------------------------------------------------------------------------------------------------------
 VARIABLES CONTENTS
-
+---------------------------------------------------------------------------------------------------------------------------
 subject_id (numbers from 1 to 30, representing 30 individuals that took part of the test/training)
 activity_id (numbers from 1 to 6, representing the different types of activities performed)
 activity_labels (text strings to describe each type of activity, these are linked to the activity_id)
