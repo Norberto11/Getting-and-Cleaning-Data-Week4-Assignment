@@ -1,7 +1,5 @@
 ## CLEANING DATA ASSIGNMENT WEEK 4
-## 0) Setting working directory
-      setwd("~/Norberto/Personal/Courses/Data Analysis Specialization/Cleaning Data/Project/UCI HAR Dataset")
-    
+   
 ## 1) Obtaining features data. (From this point all data has been downloaded to the 'UCI HAR Dataset' folder)
       features<-read.csv("./features.txt",header=FALSE,sep="")
     
