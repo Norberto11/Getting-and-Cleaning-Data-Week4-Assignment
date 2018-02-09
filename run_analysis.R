@@ -53,7 +53,7 @@
      final_set_labels<-merge(activity_labels,final_mean_std,by="activity_id",all.x=TRUE)
 
 ### ITEM 4. Appropriately labels the data set with descriptive variable names. 
-## This step was already performed while executing ITEM 1 on step 5,6 and 7
+## This step was already performed while executing ITEM 1 on step 6,7 and 8
      
 ### ITEM 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.     
 ## 12) Obtaining the final data grouping by activity and subject and averaging the measurements, then writing in a file.
