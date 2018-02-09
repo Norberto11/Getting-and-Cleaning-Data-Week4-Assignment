@@ -1,4 +1,4 @@
-STUDY DESIGN
+ STUDY DESIGN
 -------------------------------------------------------------------------------------------------------------------------
 Data was collected from the sources below and processed in order to get the mean and standard deviation of measurements (Test and Training).
 
@@ -96,9 +96,11 @@ Note: Measurement variables were modified from originals in order to be valid co
 
 VARIABLES CONTENTS
 ---------------------------------------------------------------------------------------------------------------------------
-subject_id (numbers from 1 to 30, representing 30 individuals that took part of the test/training)
-activity_id (numbers from 1 to 6, representing the different types of activities performed)
-activity_labels (text strings to describe each type of activity, these are linked to the activity_id)
+- subject_id (numbers from 1 to 30, representing 30 individuals that took part of the test/training)
+- activity_id (numbers from 1 to 6, representing the different types of activities performed)
+- activity_labels (text strings to describe each type of activity, these are linked to the activity_id)
+
+Activity Labels:
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
