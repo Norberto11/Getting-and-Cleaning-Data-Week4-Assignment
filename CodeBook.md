@@ -19,19 +19,19 @@ The tidy data set compiles the following different variables:
 
 1) Variables to identified subjects and activities performed (3)
 
-1	activity_labels
-2	subject_id
-3	activity_id
+1.	activity_labels
+2.	subject_id
+3.	activity_id
 
 2) Measurement variables (66)
 
-4	tBodyAcc.mean...X
-5	tBodyAcc.mean...Y
-6	tBodyAcc.mean...Z
-7	tGravityAcc.mean...X
-8	tGravityAcc.mean...Y
-9	tGravityAcc.mean...Z
-10	tBodyAccJerk.mean...X
+4.	tBodyAcc.mean...X
+5.	tBodyAcc.mean...Y
+6.	tBodyAcc.mean...Z
+7.	tGravityAcc.mean...X
+8.	tGravityAcc.mean...Y
+9.	tGravityAcc.mean...Z
+10.	tBodyAccJerk.mean...X
 11	tBodyAccJerk.mean...Y
 12	tBodyAccJerk.mean...Z
 13	tBodyGyro.mean...X
@@ -99,12 +99,12 @@ VARIABLES CONTENTS
 subject_id (numbers from 1 to 30, representing 30 individuals that took part of the test/training)
 activity_id (numbers from 1 to 6, representing the different types of activities performed)
 activity_labels (text strings to describe each type of activity, these are linked to the activity_id)
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
 
 Measurement variables (66 variables taht contains the mean and standard deviation of measurements)
